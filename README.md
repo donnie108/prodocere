@@ -8,8 +8,8 @@ intact — and optionally apply Bates labels. A Windows desktop app with
 
 ## Download
 
-**→ [Download the latest installer](https://github.com/donnie108/office-services/releases/latest)**
-&nbsp;(`OfficeServices-1.0.0.a-Setup.exe`, ~289 MB)
+- **Windows:** [`OfficeServices-1.0.0.a-Setup.exe`](https://github.com/donnie108/office-services/releases/latest/download/OfficeServices-1.0.0.a-Setup.exe) (~289 MB)
+- **macOS (Apple Silicon):** [`OfficeServices-1.0.0.a.dmg`](https://github.com/donnie108/office-services/releases/latest/download/OfficeServices-1.0.0.a.dmg) (~438 MB)
 
 ## Install
 
