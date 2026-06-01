@@ -1,7 +1,7 @@
 # Office Services
 
 Convert a whole folder of documents into PDFs — keeping your folder structure
-intact — and optionally apply Bates labels. A Windows desktop app with
+intact — and optionally apply Bates labels. A Windows & macOS desktop app with
 **nothing else to install**: the conversion engine (LibreOffice) is bundled inside.
 
 > **Alpha — version 1.0.0.a.** Expect rough edges; please report issues.
@@ -13,15 +13,28 @@ intact — and optionally apply Bates labels. A Windows desktop app with
 
 ## Install
 
+### Windows
+
 1. Download and run **`OfficeServices-1.0.0.a-Setup.exe`**.
 2. Because this is an unsigned alpha build, Windows SmartScreen may say
    *"Windows protected your PC."* Click **More info → Run anyway**.
 3. Approve the **User Account Control** prompt (it installs to Program Files).
 4. Launch from **Start Menu → Office Services** (or the desktop shortcut).
 
+### macOS (Apple Silicon)
+
+1. Download and open **`OfficeServices-1.0.0.a.dmg`**, then drag **Office Services**
+   into your **Applications** folder.
+2. Because this is an unsigned alpha build, macOS Gatekeeper blocks the first launch
+   (*"Apple could not verify… / unidentified developer"*). **Right-click (or
+   Control-click) the app → Open**, then click **Open** in the dialog — you only need
+   to do this once. If it still won't open, run in Terminal:
+   `xattr -dr com.apple.quarantine "/Applications/Office Services.app"`
+3. Launch it from **Applications** or Launchpad.
+
 ## Requirements
 
-- Windows 10 or 11 (64-bit)
+- Windows 10 or 11 (64-bit), **or** macOS on Apple Silicon (M1 or later)
 - Nothing else — LibreOffice is bundled.
 
 ## What it does
@@ -43,16 +56,20 @@ intact — and optionally apply Bates labels. A Windows desktop app with
 
 ## Settings & logs
 
-Everything writable lives in `%APPDATA%\DocConverter` — `config.json`, the `logs`
-folder, and LibreOffice's working profile.
+Everything writable lives in a per-user folder — `%APPDATA%\DocConverter` on Windows,
+`~/Library/Application Support/DocConverter` on macOS — holding `config.json`, the
+`logs` folder, and LibreOffice's working profile.
 
 ## Reporting problems
 
-Please open an issue with: what you did and what happened, the log
-(`%APPDATA%\DocConverter\logs\converter.log`, or the **View Log** button), and
-the version (**1.0.0.a**).
+Please open an issue with: what you did and what happened, the log (the **View Log**
+button, or `…\DocConverter\logs\converter.log` on Windows /
+`~/Library/Application Support/DocConverter/logs/converter.log` on macOS), and the
+version (**1.0.0.a**).
 
 ## Uninstall
 
-Settings → Apps → **Office Services** → Uninstall. Your converted PDFs and the
-`%APPDATA%\DocConverter` folder are left in place.
+- **Windows:** Settings → Apps → **Office Services** → Uninstall.
+- **macOS:** drag **Office Services** from Applications to the Trash.
+
+Your converted PDFs and the per-user data folder are left in place.
