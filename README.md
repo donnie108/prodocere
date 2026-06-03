@@ -4,28 +4,23 @@ Convert a whole folder of documents into PDFs — keeping your folder structure
 intact — and optionally apply Bates labels. A Windows & macOS desktop app with
 **nothing else to install**: the conversion engine (LibreOffice) is bundled inside.
 
-> **Alpha — version 1.0.0.a.** Expect rough edges; please report issues.
+> **Alpha — version 1.1.0.a.** Expect rough edges; please report issues.
 
 ## Download
 
-- **Windows:** [`OfficeServices-1.0.0.a-Setup.exe`](https://github.com/donnie108/prodocere/releases/latest/download/OfficeServices-1.0.0.a-Setup.exe) (~289 MB)
+- **Windows:** [`Prodocere-1.1.0.a-Setup.exe`](https://github.com/donnie108/prodocere/releases/latest/download/Prodocere-1.1.0.a-Setup.exe) (~290 MB)
 
 _(A macOS build is in the works and will be posted here when ready.)_
-
-> **Note — name change:** Prodocere was previously called **Office Services**. This alpha
-> installer predates the rename, so the download is still `OfficeServices-1.0.0.a-Setup.exe`
-> and it installs and appears as **Office Services**. The next build will carry the
-> Prodocere name throughout.
 
 ## Install
 
 ### Windows
 
-1. Download and run **`OfficeServices-1.0.0.a-Setup.exe`**.
+1. Download and run **`Prodocere-1.1.0.a-Setup.exe`**.
 2. Because this is an unsigned alpha build, Windows SmartScreen may say
    *"Windows protected your PC."* Click **More info → Run anyway**.
 3. Approve the **User Account Control** prompt (it installs to Program Files).
-4. Launch from **Start Menu → Office Services** (or the desktop shortcut).
+4. Launch from **Start Menu → Prodocere** (or the desktop shortcut).
 
 ## Requirements
 
@@ -60,10 +55,10 @@ Everything writable lives in a per-user folder — `%APPDATA%\DocConverter` on W
 Please open an issue with: what you did and what happened, the log (the **View Log**
 button, or `…\DocConverter\logs\converter.log` on Windows /
 `~/Library/Application Support/DocConverter/logs/converter.log` on macOS), and the
-version (**1.0.0.a**).
+version (**1.1.0.a**).
 
 ## Uninstall
 
-- **Windows:** Settings → Apps → **Office Services** → Uninstall.
+- **Windows:** Settings → Apps → **Prodocere** → Uninstall.
 
 Your converted PDFs and the per-user data folder are left in place.
