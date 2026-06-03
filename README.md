@@ -9,7 +9,8 @@ intact — and optionally apply Bates labels. A Windows & macOS desktop app with
 ## Download
 
 - **Windows:** [`OfficeServices-1.0.0.a-Setup.exe`](https://github.com/donnie108/office-services/releases/latest/download/OfficeServices-1.0.0.a-Setup.exe) (~289 MB)
-- **macOS (Apple Silicon):** [`OfficeServices-1.0.0.a.dmg`](https://github.com/donnie108/office-services/releases/latest/download/OfficeServices-1.0.0.a.dmg) (~438 MB)
+
+_(A macOS build is in the works and will be posted here when ready.)_
 
 ## Install
 
@@ -21,20 +22,9 @@ intact — and optionally apply Bates labels. A Windows & macOS desktop app with
 3. Approve the **User Account Control** prompt (it installs to Program Files).
 4. Launch from **Start Menu → Office Services** (or the desktop shortcut).
 
-### macOS (Apple Silicon)
-
-1. Download and open **`OfficeServices-1.0.0.a.dmg`**, then drag **Office Services**
-   into your **Applications** folder.
-2. Because this is an unsigned alpha build, macOS Gatekeeper blocks the first launch
-   (*"Apple could not verify… / unidentified developer"*). **Right-click (or
-   Control-click) the app → Open**, then click **Open** in the dialog — you only need
-   to do this once. If it still won't open, run in Terminal:
-   `xattr -dr com.apple.quarantine "/Applications/Office Services.app"`
-3. Launch it from **Applications** or Launchpad.
-
 ## Requirements
 
-- Windows 10 or 11 (64-bit), **or** macOS on Apple Silicon (M1 or later)
+- Windows 10 or 11 (64-bit)
 - Nothing else — LibreOffice is bundled.
 
 ## What it does
@@ -70,6 +60,5 @@ version (**1.0.0.a**).
 ## Uninstall
 
 - **Windows:** Settings → Apps → **Office Services** → Uninstall.
-- **macOS:** drag **Office Services** from Applications to the Trash.
 
 Your converted PDFs and the per-user data folder are left in place.
