@@ -1,4 +1,4 @@
-# Office Services
+# Prodocere
 
 Convert a whole folder of documents into PDFs — keeping your folder structure
 intact — and optionally apply Bates labels. A Windows & macOS desktop app with
@@ -8,9 +8,14 @@ intact — and optionally apply Bates labels. A Windows & macOS desktop app with
 
 ## Download
 
-- **Windows:** [`OfficeServices-1.0.0.a-Setup.exe`](https://github.com/donnie108/office-services/releases/latest/download/OfficeServices-1.0.0.a-Setup.exe) (~289 MB)
+- **Windows:** [`OfficeServices-1.0.0.a-Setup.exe`](https://github.com/donnie108/prodocere/releases/latest/download/OfficeServices-1.0.0.a-Setup.exe) (~289 MB)
 
 _(A macOS build is in the works and will be posted here when ready.)_
+
+> **Note — name change:** Prodocere was previously called **Office Services**. This alpha
+> installer predates the rename, so the download is still `OfficeServices-1.0.0.a-Setup.exe`
+> and it installs and appears as **Office Services**. The next build will carry the
+> Prodocere name throughout.
 
 ## Install
 
