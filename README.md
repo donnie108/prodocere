@@ -4,11 +4,11 @@ Convert a whole folder of documents into PDFs — keeping your folder structure
 intact — and optionally apply Bates labels. A Windows & macOS desktop app with
 **nothing else to install**: the conversion engine (LibreOffice) is bundled inside.
 
-> **Alpha — version 1.1.0.a.** Expect rough edges; please report issues.
+> **Version 1.2.0.** Please report any issues.
 
 ## Download
 
-- **Windows:** [`Prodocere-1.1.0.a-Setup.exe`](https://github.com/donnie108/prodocere/releases/latest/download/Prodocere-1.1.0.a-Setup.exe) (~290 MB)
+- **Windows:** [`Prodocere-1.2.0-Setup.exe`](https://github.com/donnie108/prodocere/releases/latest/download/Prodocere-1.2.0-Setup.exe) (~290 MB)
 
 _(A macOS build is in the works and will be posted here when ready.)_
 
@@ -16,8 +16,8 @@ _(A macOS build is in the works and will be posted here when ready.)_
 
 ### Windows
 
-1. Download and run **`Prodocere-1.1.0.a-Setup.exe`**.
-2. Because this is an unsigned alpha build, Windows SmartScreen may say
+1. Download and run **`Prodocere-1.2.0-Setup.exe`**.
+2. Because this is an unsigned build, Windows SmartScreen may say
    *"Windows protected your PC."* Click **More info → Run anyway**.
 3. Approve the **User Account Control** prompt (it installs to Program Files).
 4. Launch from **Start Menu → Prodocere** (or the desktop shortcut).
@@ -55,7 +55,7 @@ Everything writable lives in a per-user folder — `%APPDATA%\DocConverter` on W
 Please open an issue with: what you did and what happened, the log (the **View Log**
 button, or `…\DocConverter\logs\converter.log` on Windows /
 `~/Library/Application Support/DocConverter/logs/converter.log` on macOS), and the
-version (**1.1.0.a**).
+version (**1.2.0**).
 
 ## Uninstall
 
